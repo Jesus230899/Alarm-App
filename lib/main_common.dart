@@ -1,5 +1,5 @@
-import 'package:alarm/core/routes/app_router.dart';
-import 'package:alarm/features/home/presentation/home_screen.dart';
+import 'package:alarma/core/routes/app_router.dart';
+import 'package:alarma/features/home/presentation/home_screen.dart';
 import 'package:flutter/material.dart';
 
 class MyApp extends StatefulWidget {
@@ -21,7 +21,7 @@ class _MyAppState extends State<MyApp> {
         // supportedLocales: const [Locale('es', 'MX')],
         routerConfig: router.config(),
         builder: (BuildContext context, Widget?child){
-          return const HomeScreen();
+          return  HomeScreen();
         },
       ),
     );

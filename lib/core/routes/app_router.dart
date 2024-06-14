@@ -1,4 +1,4 @@
-import 'package:alarm/core/routes/app_router.gr.dart';
+import 'package:alarma/core/routes/app_router.gr.dart';
 import 'package:auto_route/auto_route.dart';
 
 @AutoRouterConfig()
